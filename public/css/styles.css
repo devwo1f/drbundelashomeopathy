@@ -2,8 +2,10 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
+body, html {
   color: #5a5a5a;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -135,7 +137,7 @@ body {
   height: 38vh;
   padding-top: 30px;
 }
- 
+
 .footer-title {
   text-transform: uppercase;
 }
@@ -218,4 +220,114 @@ body {
   height:100%;
   width:100%;
   padding-right: 10px;
+}
+
+/* COVID */
+
+/* .covid-container {
+  max-width: 100% !important;
+} */
+
+.cont-last {
+  padding: 50px;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+
+.pimg1 {
+  background-image: url('/images/covid.jpg');
+  min-height: 100vh;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.pimg2 {
+  background-image: url('/images/covid2.jpeg');
+  min-height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+
+.pimg3 {
+  background-image: url('/images/covid3.jpg');
+  min-height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+.pimg4 {
+  background-image: url('/images/covid4.jpg');
+  min-height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+.pimg5 {
+  background-image: url('/images/covid5.jpg');
+  min-height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+
+.section {
+  text-align: center;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  font-size: 0.8em;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* hahnemann */
+
+.hahnemann {
+  background-image: url('/images/hahnemann.jpg');
+  min-height: 100vh;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.hahnemann {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.about {
+  background-image: url('/images/about.jpg');
+  min-height: 100vh;
+  max-width: 100%;
+  background-size: cover;
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
 }

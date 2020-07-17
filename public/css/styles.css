@@ -12,6 +12,10 @@ body, html {
   z-index: 5;
 }
 
+
+.drh {
+  font-size: 1em;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -334,6 +338,19 @@ body, html {
 
 .about {
   background-image: url('/images/about.jpg');
+  min-height: 100vh;
+  max-width: 100%;
+  background-size: cover;
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.about2 {
+  background-image: url('/images/about2.jpeg');
   min-height: 100vh;
   max-width: 100%;
   background-size: cover;

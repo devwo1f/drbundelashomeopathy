@@ -42,7 +42,7 @@ body, html {
   background-size: cover;
   height: 32rem;
   background-position: center;
-  opacity: 9;
+  opacity: 0.7;
 }
 
 .car1 {
@@ -255,7 +255,7 @@ contact-txt {
 
 .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
   position: relative;
-  iopacty: 0.9;
+  opacity: 0.9;
   background-position: center;
   background-repeat: no-repeat;
 
@@ -324,9 +324,14 @@ contact-txt {
 
 @media(max-width:568px){
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .about, .about2, .hahnemann{
-    background-attachment: scroll;
+    background-attachment: scroll !important;
   }
 }
+
+/* @supports (-webkit-touch-callout: none) {
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .about, .about2, .hahnemann{
+    background-attachment: scroll;
+} */
 
 /* hahnemann */
 
@@ -351,12 +356,6 @@ contact-txt {
   min-height: 100vh;
   max-width: 100%;
   background-size: cover;
-  position: relative;
-  opacity: 0.9;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  background-attachment: fixed;
 }
 
 .about2 {
@@ -364,10 +363,12 @@ contact-txt {
   min-height: 100vh;
   max-width: 100%;
   background-size: cover;
+}
+
+.about , .about2 {
   position: relative;
-  opacity: 0.7;
+  opacity: 0.8;
   background-position: center;
   background-repeat: no-repeat;
-
   background-attachment: fixed;
 }

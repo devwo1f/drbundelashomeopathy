@@ -35,8 +35,21 @@ body, html {
   top: 0;
   left: 0;
   min-width: 100%;
+  background-size: cover;
   height: 32rem;
+  background-position: center;
+  opacity: 0.6;
 }
+
+.car1 {
+  color: #41091c;
+  
+}
+
+.car2 {
+  color: #292727c2;
+}
+
 
 
 /* MARKETING CONTENT

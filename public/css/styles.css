@@ -29,6 +29,7 @@ body, html {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   color: whitesmoke;
+  font-weight: 900;
   bottom: 3rem;
   z-index: 10;
 }
@@ -327,7 +328,7 @@ contact-txt {
 }
 
 @media(max-width:568px){
-  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .about, .about2, .hahnemann{
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .about, .about2, .hahnemann, .ailments-top{
     background-attachment: scroll !important;
   }
 }

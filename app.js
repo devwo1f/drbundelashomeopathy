@@ -38,6 +38,14 @@ app.get("/hahnemann", function (req, res) {
   res.render("hahnemann");
 })
 
+app.get("/ailments", function (req, res) {
+  res.render("ailments");
+})
+
+app.get("/testimonials", function (req, res) {
+  res.render("testimonials");
+})
+
 app.listen(process.env.PORT || 3000, function () {
   console.log("Server started on port 3000");
 });

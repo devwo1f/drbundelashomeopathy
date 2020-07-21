@@ -18,6 +18,9 @@ body, html {
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
+.container {
+  padding: 30px;
+}
 
 /* Carousel base class */
 .carousel {
@@ -367,6 +370,32 @@ contact-txt {
 }
 
 .about , .about2 {
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* AILMENTS */
+
+.ailments-img {
+  width: 8em;
+  padding-bottom: 10px;
+}
+
+.ailments {
+  padding: 30px;
+}
+
+.ailments-top {
+  background-image: url('/images/ailments.jpg');
+  min-height: 100vh;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.ailments-top {
   position: relative;
   opacity: 0.8;
   background-position: center;

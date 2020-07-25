@@ -16,6 +16,12 @@ body, html {
 .drh {
   font-size: 1em;
 }
+
+@media(max-width:568px){
+  .drh {
+    font-size: 0.8em;
+  }
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 .container {
@@ -328,7 +334,7 @@ contact-txt {
 }
 
 @media(max-width:568px){
-  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .about, .about2, .hahnemann, .ailments-top{
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .about, .about2, .hahnemann, .ailments-top, .testimonials-header-img{
     background-attachment: scroll !important;
   }
 }
@@ -399,6 +405,26 @@ contact-txt {
 .ailments-top {
   position: relative;
   opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.testimonials-header{
+    background-color: #282e34;
+    
+}
+
+.testimonials-header-img {
+  background-image: url('/images/testimonial-header.jpeg');
+  min-height: 100vh;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.testimonials-header-img {
+  position: relative;
+  opacity: 0.9;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;

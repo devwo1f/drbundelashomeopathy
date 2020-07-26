@@ -46,6 +46,10 @@ app.get("/testimonials", function (req, res) {
   res.render("testimonials");
 })
 
+app.use(function (req, res, next) {
+  res.status(404).render("404")
+})
+
 app.listen(process.env.PORT || 3000, function () {
   console.log("Server started on port 3000");
 });

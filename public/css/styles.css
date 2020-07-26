@@ -449,3 +449,52 @@ contact-txt {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.error-container{
+  min-height: 100vh;
+  width: 100%;
+  background: white url('https://media.giphy.com/media/B3sKsypNLyJCo/giphy.gif') no-repeat center;
+  background-size: cover;
+}
+
+.error-text {
+  padding-left: 30px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.error-bold {
+  font-size: 7em;
+}
+
+.error-btn {
+  margin-top: 20px;
+}
+
+
+
+.btn-outline {
+  color: #3d414060;
+  background-color: #ffffff;
+  border-color: #3d414060;
+  font-weight: bold;
+  border-radius: 0;
+  letter-spacing: 0.05em;
+}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  background: #3d414027;
+  color: #ffffff;
+  border-color: #3d414060;
+  
+}
